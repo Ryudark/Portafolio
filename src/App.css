@@ -27,6 +27,11 @@
 .App-link {
   color: #61dafb;
 }
+.imgFlag{
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 80%;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +41,4 @@
     transform: rotate(360deg);
   }
 }
+

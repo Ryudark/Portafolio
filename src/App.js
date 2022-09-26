@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import English from "./English"
+import Spanish from "./Spanish"
+import { useState } from 'react';
+
+import Eng from "./images/English.jpg"
+import Esp from "./images/Español.jpg"
 
 function App() {
+
+  let [lenguage, setLenguage]=new useState();
+
+  function changeLanguage(c){
+    setLenguage(c)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <button onClick={()=>changeLanguage(1)}><img src={Eng} className="imgFlag"/></button>
+      <button onClick={()=>changeLanguage(2)}><img src={Esp} className="imgFlag"/></button>
+      <title>Steven Jaimes Galeano</title>
+      {
+        lenguage===1? <English /> : <Spanish />
+      }
     </div>
   );
 }
