@@ -3,9 +3,12 @@ export default function English(){
     <div>
         <h1>Hi! I'M STEVEN</h1>
         <div>
-            <iframe src="https://www.youtube.com/embed/WVXgthJPaV0" frameborder="0"></iframe>
+            <label>Clickcare Presentation:</label>
+            <iframe src="https://www.youtube.com/embed/WVXgthJPaV0" frameborder="0" title="Presentation"></iframe>
         </div>
-        <div></div>
+        <div>
+            
+        </div>
     </div>
     )
 }
