@@ -5,7 +5,8 @@ import portada from "./images/Portada1.JPG"
 import detail from "./images/gameDetail.JPG"
 import create from "./images/create.JPG"
 import page from "./images/Page1.JPG"
-import "./English.css"
+// import estilos from"./Slider.css"
+import "./Slider.css"
 
 function Slider() {
 
@@ -24,11 +25,11 @@ function Slider() {
     }
 
     return (
-        <div>
+        <div className='container'>
             <button onClick={beforeImage}>🠔</button>
             {images.map((img, index)=>{
                 return(
-                    <div>
+                    <div className={imagenActual ===index ? "slide active": "slide"}>
                         {imagenActual ===index && (
                             <img key={index} src={img} alt={img} className="image"/>)}
                     </div>
