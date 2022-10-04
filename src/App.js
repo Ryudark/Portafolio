@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/* eslint-disable jsx-a11y/alt-text */
 import './App.css';
 import English from "./English"
 import Spanish from "./Spanish"
