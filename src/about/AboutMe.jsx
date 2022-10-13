@@ -1,8 +1,9 @@
 import React from 'react'
+import "../Container.css"
 
 function About_Me() {
     return (
-        <div>
+        <div className='contenedor'>
             <p>Full stack web developer 🚀💻
                 Passionate about technology and computing. Web development, both front-end and back-end. I am curious, self-taught, with great problem-solving skills and, above all, always willing to teach and learn from others.
             </p>

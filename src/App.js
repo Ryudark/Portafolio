@@ -16,7 +16,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='fondo'>
       <button onClick={()=>changeLanguage(1)}><img src={Eng} className="imgFlag"/></button>
       <button onClick={()=>changeLanguage(2)}><img src={Esp} className="imgFlag"/></button>
       <title>Steven Jaimes Galeano</title>

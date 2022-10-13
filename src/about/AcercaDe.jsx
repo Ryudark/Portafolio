@@ -1,8 +1,9 @@
 import React from 'react'
+import "../Container.css"
 
 export default function Acerca_De() {
     return (
-        <div>
+        <div className='contenedor'>
             <p>Desarrollador web Fullstack 🚀💻
                 Apasionado de la tecnología y la informática. Desarrollo web, tanto front-end como back-end. Soy curioso, autodidacta, con gran capacidad de resolución de problemas y sobre todo siempre dispuesto a enseñar y aprender de los demás.
             </p>
